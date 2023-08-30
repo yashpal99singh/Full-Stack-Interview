@@ -1,0 +1,29 @@
+ul {
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+   align-items: normal;
+   font-size: larger;
+}
+
+li {
+   /* padding: 1rem; */
+   margin: 0.5rem;
+   background-color: lightgray;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+span {
+   margin: 1rem;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+button {
+   background-color: gray;
+   color: red;
+}
